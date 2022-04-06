@@ -1,0 +1,23 @@
+
+public class Principal {
+
+	public static void main(String[] args) {
+
+		int auxiliar = 0;
+		int number=3;
+		System.out.println("Os múltiplos são:");
+		for (int i = 1; i <= 100; i++) {
+
+			if (i % number == 0) {
+				System.out.println(i);
+				System.out.println();
+				auxiliar++;
+			}
+
+		}
+
+		System.out.println("O {} tem " + auxiliar + " múltiplos!!");
+
+	}
+
+}
