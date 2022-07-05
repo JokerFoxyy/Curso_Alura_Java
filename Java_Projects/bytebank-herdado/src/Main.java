@@ -18,6 +18,11 @@ public class Main {
 
 		System.out.println(g1.getBonificacao());
 
+		Programador p = new Programador();
+
+		p.setSalario(3000.00);
+		System.out.println(p.getBonificacao());
+
 	}
 
 }
